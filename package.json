@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Adam Tutaev",
+    "email": "a79313740346@yandex.ru"
+  },
+  "deprecated": false,
+  "description": "Desc",
+  "dependencies": {
+    "async": "^2.6.1",
+    "dns-socket": "^4.0.0"
+  },
+  "homepage": "https://github.com/sendos-pro/sendos-tools-abusenet",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "sendos-tools-abusenet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sendos-pro/sendos-tools-abusenet.git"
+  },
+  "version": "1.0.0"
+}
