@@ -3,12 +3,16 @@
     "name": "Adam Tutaev",
     "email": "a79313740346@yandex.ru"
   },
-  "deprecated": false,
-  "description": "Desc",
+  "bugs": {
+    "url": "https://github.com/sendos-pro/sendos-tools-abusenet/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "async": "^2.6.1",
     "dns-socket": "^4.0.0"
   },
+  "deprecated": false,
+  "description": "Desc",
   "homepage": "https://github.com/sendos-pro/sendos-tools-abusenet",
   "license": "MIT",
   "main": "index.js",
@@ -17,5 +21,5 @@
     "type": "git",
     "url": "git+https://github.com/sendos-pro/sendos-tools-abusenet.git"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

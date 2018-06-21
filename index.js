@@ -19,13 +19,12 @@ function queryFactory(domain, socket, opts) {
           name:  domain + ".contacts.abuse.net",
         }]
       }, opts.port, opts.server, function(err, res) {
+
         if (err) return reject(err);
         if(res.answers.length === 0) return resolve(false);
 
-        let scrore = parseInt(res.answers[0].data.split(".")[3]);
-        resolve(scrore);
-        
-        return resolve(false);
+        let abusenet = res.answers[0].data.toString();
+        resolve(true);
 
       });
     });
